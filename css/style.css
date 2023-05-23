@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Jost:wght@200&family=Montserrat:wght@200&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Quicksand&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,5 +7,169 @@
 }
 
 body {
-    
+    font-family: 'Jost', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    /* position: sticky; */
+    box-shadow: 0 1px 2px -2px gray;
+}
+
+nav > .logo-container {
+    height: 72px;
+    margin-left: 20px;
+}
+
+nav > .logo-container > img {
+    height: 100%;
+}
+
+nav > .sitemap-container > ul {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav > .sitemap-container > ul > li {
+    list-style: none;
+}
+
+nav > .sitemap-container > ul > li > a {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+nav > .sitemap-container > ul > li > a:hover {
+    color: grey;
+}
+
+nav > .buttons-container {
+    display: flex;
+    margin-right: 20px;
+}
+
+nav > .buttons-container > button {
+    width: 24px;
+    height: 24px;
+    border: none;
+    background-color: transparent;
+    margin: auto 5px;
+}
+
+nav > .buttons-container > button:hover {
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+
+nav > .buttons-container > button > img {
+    width: 15px;
+    height: 15px;
+}
+
+nav > .buttons-container #hamburger-button {
+    border: solid;
+    border-color: lightgrey;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+nav > .buttons-container #hamburger-button:hover {
+    border: none;
+}
+
+header {
+    /* height: 780px; */
+    position: relative;
+}
+
+header > .hero-image-container {
+    /* height: 780px; */
+    width: 100vw;
+    overflow: hidden; 
+}
+
+header > .hero-image-container > img { 
+    /* height: 100%; */
+    width: 100%;
+}
+
+header > .info-container {
+    width: 400px;
+    height: 250px;
+    /* border: 1px solid black; */
+    position: absolute;
+    right: 50px;
+    top: 300px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+header > .info-container > .title-info-container {
+    width: 400px;
+    height: 180px;
+    background-color: white;
+    color: black;
+}
+
+.title-info-container > h1 {
+    font-weight: 900;
+    font-size: 55px;
+    margin: 18px;
+    user-select: none;
+}
+
+header > .info-container > .more-info-container {
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+header > .info-container > .more-info-container > h2 {
+    font-weight: bold;
+    font-size: 18px;
+    margin: auto 20px;
+    user-select: none;
+}
+
+header > .info-container > .more-info-container > button {
+    border: none;
+    background-color: transparent;
+    margin-right: 20px;
+    padding: 3px;
+}
+
+header > .info-container > .more-info-container > button:hover {
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+
+header > .info-container > .more-info-container > button > img {
+    height: 15px;
+    width: 8px;
+}
+
+header > .down-button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    border: none;
+    background-color: transparent;
+    padding: 3px;
+}
+
+header > .down-button:hover {
+    border: 1px solid grey;
+    border-radius: 3px;
 }
