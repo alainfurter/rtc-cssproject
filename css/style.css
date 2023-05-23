@@ -173,3 +173,108 @@ header > .down-button:hover {
     border: 1px solid grey;
     border-radius: 3px;
 }
+
+header > .down-button > img {
+    -webkit-filter: invert(80%);
+}
+
+footer {
+    background-color: black;
+    color: lightgrey;
+    padding: 80px;
+}
+
+.location-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding:20px;
+    margin-bottom: 30px;
+    border: 1px solid grey;
+}
+
+.location-form > .location-image-container {
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;;
+}
+
+.location-form > .location-image-container img {
+    width: 100%;
+    -webkit-filter: invert(100%);
+}
+
+.location-form > label {
+
+}
+
+.location-form > input {
+    width: 300px;
+    height: 30px;
+    background-color: grey;
+    border-radius: 5px;
+    color:lightgrey;
+    padding: 5px;
+    
+}
+
+.location-form > input::placeholder {
+    color:lightgrey;
+}
+
+.location-form > button {
+    width: 200px;
+    height: 30px;
+}
+
+.footer-container {
+    border: 1px solid grey;
+}
+
+.footer-container > h2 {
+    margin: 15px 15px 15px 20px;
+}
+
+.lists-container {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 20px;
+    border: 1px solid grey;
+}
+
+.lists-container > div > h3 {
+    margin: 10px 0;
+}
+
+.lists-container > div > ul > li {
+    list-style: none;
+}
+
+.lists-container > div > ul > li > a {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.lists-container > div > ul > li > a:hover {
+    color: white;
+}
+
+.social-media-container {
+    padding: 20px;
+}
+
+.social-media-container > h3 {
+    padding-bottom: 15px;
+}
+
+.social-media-container > button {
+    width: 40px;
+    height: 40px;
+}
+
+.social-media-container > a > img {
+    width: 30px;
+    height: 30px;
+}
