@@ -9,23 +9,35 @@
 </head>
 <body>
     <nav>
-        <div class="logo-container">
-            <img src="images/fielmann-logo.png" alt="Fielmann Logo">
+        <div class="nav-bar-container">
+            <div class="logo-container">
+                <img src="images/fielmann-logo.png" alt="Fielmann Logo">
+            </div>
+            <div class="sitemap-container">   
+                <ul>
+                    <li><a href="https://www.fielmann.ch/de/brillen/" rel="noopener">Brillen</a></li>
+                    <li><a href="https://www.fielmann.ch/de/sonnenbrillen/" rel="noopener">Sonnenbrillen</a></li>
+                    <li><a href="https://www.fielmann.ch/de/kontaktlinsen/" rel="noopener">Kontaktlinsen</a></li>
+                    <li><a href="https://www.fielmann.ch/de/hoerakustik/" rel="noopener">Hörakustik</a></li>
+                    <li><a href="https://www.fielmann.ch/de/service/" rel="noopener">Service</a></li>
+                    <li><a href="https://www.fielmann-group.com/de" rel="noopener">Über Fielmann</a></li>
+                </ul>
+            </div>
+            <div class="buttons-container">
+                <a href="https://www.fielmann.ch/de/brillen/herrenbrillen/"><img src="images/icon_pin.png" alt="Pin icon"></a>
+                <a href="https://www.fielmann.ch/de/suche/keine-ergebnisse/?searchValue=heeren&cHash=89d94a0a9370b5ddc8d750a9caf6181f"><img src="images/icon_search.png" alt="Search icon"></a>
+                <button id="hamburger-button"><img src="images/hamburger.png" alt="Hamburger icon"></button>
+            </div>
         </div>
-        <div class="sitemap-container">   
+        <div class="hamburger-menu-container hidden">
             <ul>
-                <li><a href="https://www.fielmann.ch/de/brillen/">Brillen</a></li>
-                <li><a href="https://www.fielmann.ch/de/sonnenbrillen/">Sonnenbrillen</a></li>
-                <li><a href="https://www.fielmann.ch/de/kontaktlinsen/">Kontaktlinsen</a></li>
-                <li><a href="https://www.fielmann.ch/de/hoerakustik/">Hörakustik</a></li>
-                <li><a href="https://www.fielmann.ch/de/service/">Service</a></li>
-                <li><a href="https://www.fielmann-group.com/de">Über Fielmann</a></li>
+                <li><a href="https://www.fielmann.ch/de/brillen/" rel="noopener">Brillen</a></li>
+                <li><a href="https://www.fielmann.ch/de/sonnenbrillen/" rel="noopener">Sonnenbrillen</a></li>
+                <li><a href="https://www.fielmann.ch/de/kontaktlinsen/" rel="noopener">Kontaktlinsen</a></li>
+                <li><a href="https://www.fielmann.ch/de/hoerakustik/" rel="noopener">Hörakustik</a></li>
+                <li><a href="https://www.fielmann.ch/de/service/" rel="noopener">Service</a></li>
+                <li><a href="https://www.fielmann-group.com/de" rel="noopener">Über Fielmann</a></li>
             </ul>
-        </div>
-        <div class="buttons-container">
-            <button><img src="images/icon_pin.png" alt="Pin icon"></button>
-            <button><img src="images/icon_search.png" alt="Search icon"></button>
-            <button id="hamburger-button"><img src="images/hamburger.png" alt="Hamburger icon"></button>
         </div>
     </nav>
     <header>
@@ -37,18 +49,22 @@
                 <h1>Fielmann Herrenbrillen</h1>
             </div>
             <div class="more-info-container">
-                <h2>Mehr erfahren</h1>
-                <button><img src="images/icon_arrow_right.png" alt="Arrow right"></button>
+                <h2 id="more-info-text">Mehr erfahren</h1>
+                <a href="https://www.fielmann.ch/de/atrea-kontaktlinsen/">
+                    <img src="images/icon_arrow_right.png" alt="Arrow right">
+                </a>
             </div>
         </div>
-        <button class="down-button"><img src="images/icon_arrow_down@2x.png" alt="Arrow down"></button>
+        <a href="#products" class="down-button">
+            <img src="images/icon_arrow_down@2x.png" alt="Arrow down">
+        </a>
     </header>
     <main>
         <section class="vision">
             <div class="vision-container">
                 <h2>Besuchen Sie uns jederzeit</h2>
                 <p>Dank unserer <b>Hygienestandards</b> beraten wir Sie sicher vor Ort. Kommen Sie vorbei und genießen Sie den besten Fielmann-Service. Einfach so – oder mit Termin.</p>
-                <a href="https://appointments.fielmann.ch/service?_gl=1*1gxr03*_gcl_au*MjEwNjQ5MjE3Ni4xNjg0ODY5NjU0&_ga=2.5305712.2113999420.1684869654-383292474.1684869654">Jetzt Termin vereinbaren</a>
+                <a href="https://appointments.fielmann.ch/service?_gl=1*1gxr03*_gcl_au*MjEwNjQ5MjE3Ni4xNjg0ODY5NjU0&_ga=2.5305712.2113999420.1684869654-383292474.1684869654" rel="noopener">Jetzt Termin vereinbaren</a>
             </div>
         </section>
         <section class="collections">
@@ -59,7 +75,7 @@
                     </div>
                     <div class="collection-title-container">
                         <div class="collection-title">
-                            <a href="https://www.fielmann.ch/de/brillen/damenbrillen/">Damenbrillen Kollektion</a>
+                            <a href="https://www.fielmann.ch/de/brillen/damenbrillen/" rel="noopener">Damenbrillen Kollektion</a>
                         </div>
                     </div>
                 </div>
@@ -69,7 +85,7 @@
                     </div>
                     <div class="collection-title-container">
                         <div class="collection-title">
-                            <a href="https://www.fielmann.ch/de/brillen/herrenbrillen/">Herrenbrillen Kollektion</a>
+                            <a href="https://www.fielmann.ch/de/brillen/herrenbrillen/" rel="noopener">Herrenbrillen Kollektion</a>
                         </div>
                     </div>
                 </div>
@@ -79,7 +95,7 @@
                     </div>
                     <div class="collection-title-container">
                         <div class="collection-title">
-                            <a href="https://www.fielmann.ch/de/brillen/kinderbrillen/">Kinderbrillen Kollektion</a>
+                            <a href="https://www.fielmann.ch/de/brillen/kinderbrillen/" rel="noopener">Kinderbrillen Kollektion</a>
                         </div>
                     </div>
                 </div>
@@ -89,7 +105,7 @@
                     </div>
                     <div class="collection-title-container">
                         <div class="collection-title">
-                            <a href="https://www.fielmann.ch/de/wissen/mode-trends/">Brillenmode und Trends</a>
+                            <a href="https://www.fielmann.ch/de/wissen/mode-trends/" rel="noopener">Brillenmode und Trends</a>
                         </div>
                     </div>
                 </div>
@@ -99,7 +115,7 @@
                     </div>
                     <div class="collection-title-container">
                         <div class="collection-title">
-                            <a href="https://www.fielmann.ch/de/fehlsichtigkeit-kinder/">Fehlsichtigkeit bei Kindern</a>
+                            <a href="https://www.fielmann.ch/de/fehlsichtigkeit-kinder/" rel="noopener">Fehlsichtigkeit bei Kindern</a>
                         </div>
                     </div>
                 </div>
@@ -109,98 +125,98 @@
                     </div>
                     <div class="collection-title-container">
                         <div class="collection-title">
-                            <a href="https://www.fielmann.ch/de/brillen/made-in-italy/eccellenze/">Collezione Eccellenze fdfdfdfdfdff</a>
+                            <a href="https://www.fielmann.ch/de/brillen/made-in-italy/eccellenze/" rel="noopener">Collezione Eccellenze fdfdfdfdfdff</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="products">
+        <section class="products" id="products">
             <div class="products-container">
-                <h2>Modische Brillen</h2>
+                <h2 id="products-title">Modische Brillen</h2>
                 <div class="products-flex-container">
                     <div class="product-card">
-                        <a href="https://www.fielmann.ch/de/brillen/damenbrillen/ao-003-cl/20433/">
+                        <a href="https://www.fielmann.ch/de/brillen/damenbrillen/ao-003-cl/20433/" rel="noopener">
                             <img src="images/products/m_product1.jpg" alt="Brille 1">
                         </a>
                     </div>
                     <div class="product-card">
-                        <a href="https://www.fielmann.ch/de/brillen/damenbrillen/abc-064-cl/23169/">
+                        <a href="https://www.fielmann.ch/de/brillen/damenbrillen/abc-064-cl/23169/" rel="noopener">
                             <img src="images/products/m_product2.jpg" alt="Brille 2">
                         </a>
                     </div>
                     <div class="product-card">
-                        <a href="https://www.fielmann.ch/de/brillen/damenbrillen/bd-497-fa/22043/">
+                        <a href="https://www.fielmann.ch/de/brillen/damenbrillen/bd-497-fa/22043/" rel="noopener">
                             <img src="images/products/m_product3.jpg" alt="Brille 3">
                         </a>
                     </div>
                     <div class="product-card">
-                        <a href="https://www.fielmann.ch/de/brillen/damenbrillen/be-012-fa/21479/">
+                        <a href="https://www.fielmann.ch/de/brillen/damenbrillen/be-012-fa/21479/" rel="noopener">
                             <img src="images/products/m_product3.jpg" alt="Brille 4">
                         </a>
                     </div>
                     <div class="product-card">
-                        <a href="https://www.fielmann.ch/de/brillen/damenbrillen/abc-065-fa/22630/">
+                        <a href="https://www.fielmann.ch/de/brillen/damenbrillen/abc-065-fa/22630/" rel="noopener">
                             <img src="images/products/m_product3.jpg" alt="Brille 5">
                         </a>
                     </div>
                     <div class="product-card">
-                        <a href="https://www.fielmann.ch/de/brillen/damenbrillen/bd-425-cl/84645/">
+                        <a href="https://www.fielmann.ch/de/brillen/damenbrillen/bd-425-cl/84645/" rel="noopener">
                             <img src="images/products/m_product3.jpg" alt="Brille 6">
                         </a>
                     </div>
                 </div>
             </div>
             <div class="products-container">
-                <h2>Sonnenbrillen</h2>
+                <h2 id="products-title">Sonnenbrillen</h2>
                 <div class="products-flex-container">
                     <div class="product-card">
-                        <a href="https://www.fielmann.ch/de/sonnenbrillen/damensonnenbrillen/ou-037-sun-fa-zoe/24248/">
+                        <a href="https://www.fielmann.ch/de/sonnenbrillen/damensonnenbrillen/ou-037-sun-fa-zoe/24248/" rel="noopener">
                             <img src="images/products/s_product1.jpg" alt="Sonnenbrille 1">
                         </a>
                     </div>
                     <div class="product-card">
-                        <a href="https://www.fielmann.ch/de/sonnenbrillen/damensonnenbrillen/abc-071-sun-fa-charlie/24617/">
+                        <a href="https://www.fielmann.ch/de/sonnenbrillen/damensonnenbrillen/abc-071-sun-fa-charlie/24617/" rel="noopener">
                             <img src="images/products/s_product2.jpg" alt="Sonnenbrille 2">
                         </a>
                     </div>
                     <div class="product-card">
-                        <a href="https://www.fielmann.ch/de/sonnenbrillen/damensonnenbrillen/ou-036-sun-fa-carry/24266/">
+                        <a href="https://www.fielmann.ch/de/sonnenbrillen/damensonnenbrillen/ou-036-sun-fa-carry/24266/" rel="noopener">
                             <img src="images/products/s_product3.jpg" alt="Sonnenbrille 3">
                         </a>
                     </div>
                     <div class="product-card">
-                        <a href="https://www.fielmann.ch/de/sonnenbrillen/damensonnenbrillen/mf-037-sun-fa/21628/">
+                        <a href="https://www.fielmann.ch/de/sonnenbrillen/damensonnenbrillen/mf-037-sun-fa/21628/" rel="noopener">
                             <img src="images/products/s_product4.jpg" alt="Sonnenbrille 4">
                         </a>
                     </div>
                     <div class="product-card">
-                        <a href="https://www.fielmann.ch/de/sonnenbrillen/damensonnenbrillen/mc-530-sun-cl/20809/">
+                        <a href="https://www.fielmann.ch/de/sonnenbrillen/damensonnenbrillen/mc-530-sun-cl/20809/" rel="noopener">
                             <img src="images/products/s_product5.jpg" alt="Sonnenbrille 5">
                         </a>
                     </div>
                     <div class="product-card">
-                        <a href="https://www.fielmann.ch/de/sonnenbrillen/damensonnenbrillen/mc-534-sun-cl/20719/">
+                        <a href="https://www.fielmann.ch/de/sonnenbrillen/damensonnenbrillen/mc-534-sun-cl/20719/" rel="noopener">
                             <img src="images/products/s_product6.jpg" alt="Sonnenbrille 6">
                         </a>
                     </div>
                     <div class="product-card">
-                        <a href="https://www.fielmann.ch/de/sonnenbrillen/damensonnenbrillen/mf-041-sun-fa/21653/">
+                        <a href="https://www.fielmann.ch/de/sonnenbrillen/damensonnenbrillen/mf-041-sun-fa/21653/" rel="noopener">
                             <img src="images/products/s_product7.jpg" alt="Sonnenbrille 7">
                         </a>
                     </div>
                     <div class="product-card">
-                        <a href="https://www.fielmann.ch/de/sonnenbrillen/damensonnenbrillen/ld-015-sun-cl/20635/">
+                        <a href="https://www.fielmann.ch/de/sonnenbrillen/damensonnenbrillen/ld-015-sun-cl/20635/" rel="noopener">
                             <img src="images/products/s_product8.jpg" alt="Sonnenbrille 8">
                         </a>
                     </div>
                     <div class="product-card">
-                        <a href="https://www.fielmann.ch/de/sonnenbrillen/damensonnenbrillen/mc-489-sun-cl/70414/">
+                        <a href="https://www.fielmann.ch/de/sonnenbrillen/damensonnenbrillen/mc-489-sun-cl/70414/" rel="noopener">
                             <img src="images/products/s_product9.jpg" alt="Sonnenbrille 9">
                         </a>
                     </div>
                     <div class="product-card">
-                        <a href="https://www.fielmann.ch/de/sonnenbrillen/damensonnenbrillen/mf-040-sun-fa/21024/">
+                        <a href="https://www.fielmann.ch/de/sonnenbrillen/damensonnenbrillen/mf-040-sun-fa/21024/" rel="noopener">
                             <img src="images/products/s_product10.jpg" alt="Sonnenbrille 10">
                         </a>
                     </div>
@@ -257,38 +273,38 @@
                 <div class="locations">
                     <h3>Fielmann in ihrer Nähe</h3>
                     <ul class="locations">
-                        <li><a href="https://www.fielmann.ch/de/niederlassungen/zuerich/zuerich/">Optiker in Zürich</a></li>
-                        <li><a href="https://www.fielmann.ch/de/niederlassungen/bern/3011-waisenhausplatz-1/">Optiker in Bern</a></li>
-                        <li><a href="https://www.fielmann.ch/de/niederlassungen/basel-stadt/basel/">Optiker in Basel</a></li>
-                        <li><a href="https://www.fielmann.ch/de/niederlassungen/luzern/6004-weggisgasse-29/">Optiker in Luzern</a></li>
+                        <li><a href="https://www.fielmann.ch/de/niederlassungen/zuerich/zuerich/" rel="noopener">Optiker in Zürich</a></li>
+                        <li><a href="https://www.fielmann.ch/de/niederlassungen/bern/3011-waisenhausplatz-1/" rel="noopener">Optiker in Bern</a></li>
+                        <li><a href="https://www.fielmann.ch/de/niederlassungen/basel-stadt/basel/" rel="noopener">Optiker in Basel</a></li>
+                        <li><a href="https://www.fielmann.ch/de/niederlassungen/luzern/6004-weggisgasse-29/" rel="noopener">Optiker in Luzern</a></li>
                     </ul>
                 </div>
                 <div class="company">
                     <h3>Unternehmen</h3>
                     <ul>
                         <li><a href="https://www.fielmann-group.com/news/">Presse</a></li>
-                        <li><a href="https://www.fielmann-group.com/investor-relations/publikationen/">Investor Relations</a></li>
-                        <li><a href="https://jobs.fielmann.com/de/stellenangebote/#&country=DE">Stellen</a></li>
+                        <li><a href="https://www.fielmann-group.com/investor-relations/publikationen/" rel="noopener">Investor Relations</a></li>
+                        <li><a href="https://jobs.fielmann.com/de/stellenangebote/#&country=DE" rel="noopener">Stellen</a></li>
                     </ul>
                 </div>
                 <div class="contact">
                     <h3>Kontakt</h3>
                     <ul>
-                        <li><a href="https://www.fielmann.ch/de/service/kontakt/">Kundenservice</a></li>
-                        <li><a href="https://www.fielmann.ch/de/wissen/">Wissen</a></li>
-                        <li><a href="https://www.fielmann.ch/de/sitemap/">Sitemap</a></li>
-                        <li><a href="https://www.fielmann.ch/de/impressum/">Impressum</a></li>
-                        <li><a href="https://www.fielmann.ch/de/datenschutz/">Datenschutz</a></li>
+                        <li><a href="https://www.fielmann.ch/de/service/kontakt/" rel="noopener">Kundenservice</a></li>
+                        <li><a href="https://www.fielmann.ch/de/wissen/" rel="noopener">Wissen</a></li>
+                        <li><a href="https://www.fielmann.ch/de/sitemap/" rel="noopener">Sitemap</a></li>
+                        <li><a href="https://www.fielmann.ch/de/impressum/" rel="noopener">Impressum</a></li>
+                        <li><a href="https://www.fielmann.ch/de/datenschutz/" rel="noopener">Datenschutz</a></li>
                     </ul>
                 </div>
             </div>
             <div class="social-media-container">
                 <h3>Social Media</h3>
-                <a href="https://www.instagram.com/fielmann/"><img src="images/twitter.png" alt="Twitter icon"></a>
-                <a href="https://www.facebook.com/fielmann"><img src="images/facebook.png" alt="Facebook icon"></a>
+                <a href="https://www.instagram.com/fielmann/" rel="noopener"><img src="images/twitter.png" alt="Twitter icon"></a>
+                <a href="https://www.facebook.com/fielmann" rel="noopener"><img src="images/facebook.png" alt="Facebook icon"></a>
             </div>
         </div>
-
     </footer>
+    <script src="js/app.js"></script>
 </body>
 </html>
